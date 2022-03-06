@@ -1,0 +1,53 @@
+* {
+  align-items: center;
+}
+
+
+header h1 {
+  text-align: center;
+  color: #ffffff;
+  background-image: linear-gradient(#f2c0a2, #d96b52, #d95043, #59211c);
+  padding: 2rem;
+  margin: -1rem;
+}
+
+section#infos {
+  padding: auto;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  background-color: #59211c;
+  margin-top: 1rem;
+}
+
+button#alterar {
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: #eaf51d;
+}
+
+button#alterar:hover {
+  transition: ease-out;
+  background-color: #d95043;
+  transition: width 2s, height 4s;
+}
+
+section#infos div#txt button {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+#img {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+
+#txt {
+  padding: 2rem;
+  color: #f2c0a2;
+}
