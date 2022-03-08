@@ -42,8 +42,11 @@ section#infos div#txt button {
   cursor: pointer;
 }
 #img {
-  margin-left: auto;
+  margin: 1rem 0 0 0;
   margin-top: 1rem;
+  width: 30%;
+  
+  
 }
 
 
