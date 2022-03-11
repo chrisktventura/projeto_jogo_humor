@@ -1,56 +1,69 @@
 * {
-  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-
 header h1 {
+  flex-wrap: wrap;
+  font-size: 50px;
   text-align: center;
   color: #ffffff;
   background-image: linear-gradient(#f2c0a2, #d96b52, #d95043, #59211c);
   padding: 2rem;
   margin: -1rem;
+  ;
+}
+body {
+  background-image: linear-gradient(#59211c, #d95043, #d96b52,#f2c0a2 )
 }
 
 section#infos {
-  padding: auto;
-  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: 40px;
-  background-color: #59211c;
+  display: flex;
+  font-size: 20px;
   margin-top: 1rem;
 }
 
 button#alterar {
+  margin: 5%;
   padding: 1.5rem 2rem 1.5rem 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 2rem;
   background-color: #eaf51d;
 }
 
 button#alterar:hover {
-  transition: ease-out;
+  transition: ease-in;
   background-color: #d95043;
   transition: width 2s, height 4s;
 }
 
 section#infos div#txt button {
   padding: 1rem;
-  font-size: 1.3rem;
   font-weight: 600;
   border-radius: 2rem;
   transition: all 0.5s ease-out;
   cursor: pointer;
 }
-#img {
-  margin: 1rem 0 0 0;
-  margin-top: 1rem;
-  width: 30%;
-  
-  
-}
-
 
 #txt {
   padding: 2rem;
   color: #f2c0a2;
+}
+
+#rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+#rodape a {
+  text-align:center;
+  text-decoration: none;
+  color: white;
+  
 }
