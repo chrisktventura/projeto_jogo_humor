@@ -14,7 +14,7 @@ header h1 {
   ;
 }
 body {
-  background-image: linear-gradient(#59211c, #d95043, #d96b52,#f2c0a2 )
+  background-image: url('/assets/img/bg.jpg')
 }
 
 section#infos {
@@ -49,7 +49,7 @@ section#infos div#txt button {
 
 #txt {
   padding: 2rem;
-  color: #f2c0a2;
+  color: #000000;
 }
 
 #rodape {
