@@ -10,16 +10,14 @@ elementoBtn.addEventListener("click", () => {
     elementoNome.innerText = "Naruto Uzumaki ";
     elementoSituacao.innerText = "Normal";
     document.body.style.backgroundImage = "url('./assets/img/bg.jpg')";
-    
-    
+
     elementoBtn.value = "segundo";
   } else if (elementoBtn.value == "segundo") {
     elementoImg.src = "./assets/img/naruto2.png";
     elementoNome.innerText = "Naruto 1 cauda";
     elementoSituacao.innerText = "Descontrolado";
     document.body.style.backgroundImage = "url('./assets/img/bg2.jpg')";
-    document
-    
+    document;
     elementoBtn.value = "terceiro";
   } else if (elementoBtn.value == "terceiro") {
     elementoImg.src = "./assets/img/naruto3.png";
