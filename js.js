@@ -1,7 +1,6 @@
 const elementoNome = document.getElementById("nome");
 const elementoSituacao = document.querySelector("#situacao");
 const elementoImg = document.querySelector("#imagem");
-// const elementoBg = document.body.style.backgroundImage;
 let elementoBtn = document.querySelector("#alterar");
 
 elementoBtn.addEventListener("click", () => {
@@ -29,11 +28,3 @@ elementoBtn.addEventListener("click", () => {
     elementoBtn.value = "primeiro";
   }
 });
-
-function AsyncTrocaImg() {
-  $.post(base + "Home/GetNewImg", {}, function (URL) {
-       $('body').css('background-image', 'url('+URL+')');
-  }).fail(function () {
-      console.log("error");
-  })
-}
