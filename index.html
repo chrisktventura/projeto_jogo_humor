@@ -9,8 +9,10 @@
   </head>
   <body>
     <header>
-      <h1> Jogo do Humor do Naruto <img id="simb" src="./assets/img/simb2.png" alt=""></h1>
-      
+      <div class="header-container">
+        <h1>Jogo do Humor do Naruto</h1>
+        <img id="simb" src="./assets/img/simb2.png" alt="" />
+      </div>
     </header>
     <main>
       <section id="infos">
@@ -23,20 +25,45 @@
             Situação:
             <span id="situacao">Normal</span>
           </h3>
-          <button value="primeiro" id="alterar">Alterar situação</button>
+          <button value="primeiro" class="alterar" id="alterar">
+            Alterar situação
+          </button>
           <div class="img">
             <img id="imagem" src="./assets/img/naruto1.png" alt="#" />
           </div>
           <audio autoplay controls src="./assets/audio/music.mp3"></audio>
-         
         </div>
       </section>
     </main>
-    <footer id="rodape">chrisktventura
-        <ul><a href="https://github.com/chrisventur" target="_blank"><img src="./assets/img/git.png"> GitHub</a></ul> 
-        <ul><a href="https://www.linkedin.com/in/chrisktventura/" target="_blank"><img src="./assets/img/linked.png"> LinkedIn</a></ul> 
-        <ul><a href="https://www.instagram.com/chrisktventura/" target="_blank"><img src="./assets/img/insta.png"> Instagram</a></ul> 
-        </footer>
+    <footer id="rodape">
+      <div class="container-footer">
+        <div class="footer-item">chrisktventura</div>
+        <div class="footer-item">
+          <ul>
+            <a href="https://github.com/chrisventur" target="_blank"
+              ><img src="./assets/img/git.png" /> GitHub</a
+            >
+          </ul>
+        </div>
+        <div class="footer-item">
+          <ul>
+            <a
+              href="https://www.linkedin.com/in/chrisktventura/"
+              target="_blank"
+              ><img src="./assets/img/linked.png" /> LinkedIn</a
+            >
+          </ul>
+        </div>
+        <div class="footer-item">
+          <ul>
+            <a href="https://www.instagram.com/chrisktventura/" target="_blank"
+              ><img src="./assets/img/insta.svg" /> Instagram</a
+            >
+          </ul>
+        </div>
+      </div>
+    </footer>
+
     <script type="text/javascript" src="./js.js"></script>
   </body>
 </html>
