@@ -17,7 +17,7 @@ elementoBtn.addEventListener("click", () => {
     elementoNome.innerText = "Naruto 1 cauda";
     elementoSituacao.innerText = "Descontrolado";
     document.body.style.background = "url('./assets/img/bg2.jpg')";
-    document;
+    
     elementoBtn.value = "terceiro";
   } else if (elementoBtn.value == "terceiro") {
     elementoImg.src = "./assets/img/naruto3.png";
